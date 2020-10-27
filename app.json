@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop-detail/shop-detail",
+    "pages/pay/pay",
+    "pages/order-list/order-list",  
+    "pages/order-detail/order-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校服",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-checkbox": "vant-weapp/checkbox/index",
+    "van-checkbox-group": "vant-weapp/checkbox-group/index",
+    "van-stepper": "vant-weapp/stepper/index",
+    "van-popup": "vant-weapp/popup/index",
+    "van-dialog": "vant-weapp/dialog/index",
+    "no-data": "components/no-data/no-data",
+    "title": "components/title/title"
+  },
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": [
+    
+  ]
+}

@@ -1,0 +1,267 @@
+/**app.wxss**/
+page{
+  font-size:32rpx;
+  line-height:1.5;
+  color:#333;
+}
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.item-group {
+  border-bottom: 10rpx solid #f9f9f9;
+}
+
+.plist {
+  padding: 30rpx;
+  position: relative;
+  background:#fff;
+  line-height:55rpx;
+  
+}
+.plist .max-width {
+  max-width:500rpx;
+}
+.plist::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #f4f4f4;
+  width: 100%;
+  height: 1px;
+  transform: scaleY(0.5);
+}
+.choose-plist {
+  padding-right: 50rpx;
+  background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABTUlEQVRoQ+3ZMUrEUBDG8XmjhXgDrScHsBErC3ux2BN4LY8hCIpg5yUCjxQLOUG6BGZJsWC5vDffTB7u1tnl/8uE7MtLosY/qfF+OgOiJ/h/J6CqFznnWxHZR06heAJ9378S0VtKadd13XsUohgwDMPVsiwfqvoYiSgGrGd8C4gqwBYQ1YBohAkgEmEGOCLmef4mogdmfhaRT/TdyRSwxo7jeD1N0xcR3TPzCxphDvBGQACeCBjACwEFeCDgADTCBYBEuAFQCFcAAuEOsEaEAP4gfojojpmfROS3ZNkRDTguOdoCWK6X3CdgGb9ecq4A63hXACLeDYCKdwEg4+EAdDwU4BEPA3jFQwCe8eaAdaux2W2VqH1Sk3/iqHiTSygyvhoQHV8F2EJ8FaD5V0yqeplzvmn2JV/J8yviOya3UUTYqb95Bpx6plDHNT+BA6+SRkDRYcveAAAAAElFTkSuQmCC) no-repeat;
+  background-size: 40rpx;
+  background-position: right 8rpx center;
+}
+
+.width-100{
+  width:200rpx;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.app-flex {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #f9f9f9;
+}
+
+.app-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.border-right{
+  border-right:1px solid #f4f4f4;
+}
+.border-top{
+  border-top:1px solid #f4f4f4;
+}
+
+.mt-10 {
+  margin-top:20rpx;
+}
+.fixed-page {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 1000;
+}
+
+.bg-white {
+  background: #fff;
+}
+.van-popup--right{
+  height:100%;
+  background:#fff;
+  width:80%;
+}
+.accredit-box{
+  color:#333;
+  width:600rpx;
+  padding-top:40rpx;
+  font-size:46rpx;  
+  border-radius: 20rpx;
+}
+.accredit-text{
+  font-size:34rpx;
+  padding:20rpx 20rpx 40rpx;
+  border-bottom:1px solid #ddd;
+  text-align: center;
+  color:#666;
+}
+.accredit-btn{
+  text-align: center;
+  font-size:40rpx;
+  line-height:100rpx;
+  border-top:1px solid #ddd;
+  color:#179B16;
+  background-color:#fff;
+  border:0;
+}
+.accredit-btn:first-child{
+  color:#333;
+  border-right:1px solid #ddd;
+}
+.accredit-btn::after{
+  display:none;
+}
+
+.grey1{
+  color:#333;
+}
+.grey2{
+  color:#666;
+}
+.grey3{
+  color:#999;
+}
+.orange{
+  color:#ef6c00;
+}
+.red{
+  color:#f00;
+}
+.blue{
+  color:#0cb2f3;
+}
+.green{
+  color:#179B16;
+}
+.icon-right{
+  width:55rpx;
+  display:inline-block;
+  margin-left:10rpx;
+}
+.pr-10{
+  padding-right:20rpx !important;
+}
+
+.fix-bottom-btn{
+  background:#fff;
+  padding:20rpx 10rpx;
+  border-top:1px solid #f4f4f4;
+  display:flex;
+}
+.button{
+  flex:1;
+  margin:0 10rpx;
+  line-height:80rpx;
+  text-align: center;
+  border:1px solid #999;
+  color:#999;
+  border-radius: 8rpx;
+  font-size:36rpx;
+}
+.success-button{
+  border:1px solid #179B16;
+  background:#179B16;
+  color:#fff;
+}
+.doiing-button{
+  border:1px solid #0cb2f3;
+  background:#0cb2f3;
+  color:#fff;
+}
+.danger-button{
+  border:1px solid #f00;
+  background:#f00;
+  color:#fff;
+}
+
+.pay-box{
+  height:100rpx;
+  line-height:100rpx;
+  background:#fff;
+  border-top:1px solid #f4f4f4;
+  padding:0 20rpx;
+}
+.pay-box .price{
+  font-size:50rpx;
+  font-weight: 700;
+  color:#f00;
+}
+.pay-box .pay-btn{
+  height:80rpx;
+  line-height:80rpx;
+  margin-top:10rpx;
+  color:#fff;
+  border-radius: 40rpx;
+  padding:0 40rpx;
+  font-size: 40rpx;
+  background:#ef6c00;
+  font-weight: 700;
+}
+
+.shop-list{
+  background:#fff;
+  border-radius: 20rpx;
+  margin:20rpx 20rpx 0;
+  padding:20rpx;
+}
+.shop-list .info{
+  display:flex;
+}
+.shop-list .shop-img {
+  width:200rpx;
+  height:150rpx;
+  margin-right:20rpx;
+}
+.shop-list .van-checkbox{
+  margin-right:20rpx;
+}
+.shop-list .shop-name{
+  font-size:32rpx;
+}
+.shop-list .size{
+  color:#999;
+  font-size:28rpx;
+  margin:10rpx 0;
+}
+.shop-list .num-price{
+  overflow: hidden;
+  line-height:28px
+}
